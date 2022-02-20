@@ -14,7 +14,7 @@ public static void main(String[] args){
 
   System.out.println("Birinci Sayınız: " + no1);
 
-  System.out.print("İkinci Sayıyı Giriniz: ");
+  System.out.print("İkinci Sayıyı Giriniz (bölme işlemi için 1.sayıdan büyük bir rakam giriniz): ");
 
   no2 = input.nextInt();
 
