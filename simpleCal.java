@@ -40,7 +40,15 @@ public static void main(String[] args){
       break;
 
       case 4:
-      System.out.println("4- Bölme İşlemi - Sonuc: " + (no1 / no2));
+        if (no2 != 0){
+
+        System.out.println("4- Bölme İşlemi - Sonuc: " + (double)(no1 / no2));
+
+        }
+        else{
+        System.out.println("İkinci Sayıyı '0' Seçmeyiniz, Tekrar Deneyiniz");
+        }
+
       break;
 
     default:
