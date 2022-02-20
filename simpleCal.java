@@ -49,7 +49,6 @@ public static void main(String[] args){
           System.out.println("4- Bölme İşlemi - Sonuc: " + (double)(no1 / no2));
             break;
         }
-        
       break;
 
     default:
