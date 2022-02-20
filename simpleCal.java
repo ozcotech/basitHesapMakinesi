@@ -40,15 +40,16 @@ public static void main(String[] args){
       break;
 
       case 4:
-        if (no2 != 0){
-
-        System.out.println("4- Bölme İşlemi - Sonuc: " + (double)(no1 / no2));
-
+        switch (no2) {
+          case 0:
+            System.out.println("2.sayı '0' olduğundan bölme işlemi geçersiz sonuç");
+            break;
+        
+          default:
+          System.out.println("4- Bölme İşlemi - Sonuc: " + (double)(no1 / no2));
+            break;
         }
-        else{
-        System.out.println("İkinci Sayıyı '0' Seçmeyiniz, Tekrar Deneyiniz");
-        }
-
+        
       break;
 
     default:
